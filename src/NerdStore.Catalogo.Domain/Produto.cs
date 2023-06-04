@@ -24,5 +24,14 @@ namespace NerdStore.Catalogo.Domain
         public string? Imagem { get;private set; }
         public int QuantidadeEstoque { get; private set; }
         public Categoria? Categoria { get;private set; }
+
+
+        public void Ativar() => Ativo = true;
+        public void Desativar() => Ativo = false;
+        public void AlterarCategoria(Categoria categoria)
+        {
+            Categoria = categoria;
+            CategoriaId = Categoria.Id;
+        }
     }
 }
