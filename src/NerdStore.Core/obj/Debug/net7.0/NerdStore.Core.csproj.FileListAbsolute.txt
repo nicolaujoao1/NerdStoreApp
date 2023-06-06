@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Core\bin\Debug\net7.0\NerdStore.Core.deps.json
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Core\bin\Debug\net7.0\NerdStore.Core.dll
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Core\bin\Debug\net7.0\NerdStore.Core.pdb
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Core\obj\Debug\net7.0\NerdStore.Core.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Core\obj\Debug\net7.0\NerdStore.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Core\obj\Debug\net7.0\NerdStore.Core.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Core\obj\Debug\net7.0\NerdStore.Core.AssemblyInfo.cs
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Core\obj\Debug\net7.0\NerdStore.Core.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Core\obj\Debug\net7.0\NerdStore.Core.dll
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Core\obj\Debug\net7.0\refint\NerdStore.Core.dll
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Core\obj\Debug\net7.0\NerdStore.Core.pdb
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Core\obj\Debug\net7.0\ref\NerdStore.Core.dll
