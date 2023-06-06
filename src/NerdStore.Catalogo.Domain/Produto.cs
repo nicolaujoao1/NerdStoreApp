@@ -12,7 +12,9 @@ namespace NerdStore.Catalogo.Domain
             Ativo = ativo;
             Valor = valor;
             DataCadastro = dataCadastro;
-            Imagem = imagem;           
+            Imagem = imagem;
+
+            Validar();
         }
 
         public Guid CategoriaId { get; private set; }
@@ -35,11 +37,13 @@ namespace NerdStore.Catalogo.Domain
         }
         public void AlterarDescricao(string descricao)
         {
-            Descricao=descricao;
+            AssertionConcern.AssertArgumentNotEmpty(descricao, "O campo Descrição não pode estar vazio");
+            Descricao =descricao;
         }
         public void DebitarEstoque(int quantidade)
         {
             if (quantidade < 0) quantidade *= -1;
+            if (!PossuiEstoque(quantidade)) throw new Exception("Estoque insuficiente");
             QuantidadeEstoque -= quantidade;
         }
         public void ReporEstoque(int quantidade)
@@ -50,7 +54,11 @@ namespace NerdStore.Catalogo.Domain
         => QuantidadeEstoque >= quantidade;
         public void Validar()
         {
-
+            AssertionConcern.AssertArgumentNotEmpty(Nome, "O campo Nome do produto não pode estar vazio");
+            AssertionConcern.AssertArgumentNotEmpty(Descricao, "O campo Descrição não pode estar vazio");
+            AssertionConcern.AssertArgumentNotEquals(CategoriaId, Guid.Empty, "O campo CategoriaId do produto não pode estar vazio");
+            AssertionConcern.AssertArgumentLessOrEqualThan(Valor, 0, "O valor do produto não pode ser menor ou igual a 0");
+            AssertionConcern.AssertArgumentNotEmpty(Imagem, "O campo Imagem do produto não pode estar vazio");
         }
     }
 }

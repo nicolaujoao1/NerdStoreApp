@@ -71,6 +71,27 @@ public class AssertionConcern
             throw new DomainException(message);
         }
     }
+    public static void AssertArgumentLessOrEqualThan(double value,double minimum, string message)
+    {
+        if (value <= minimum)
+        {
+            throw new DomainException(message);
+        }
+    }
+    public static void AssertArgumentLessOrEqualThan(int value, int minimum, string message)
+    {
+        if (value <= minimum)
+        {
+            throw new DomainException(message);
+        }
+    }
+    public static void AssertArgumentLessOrEqualThan(decimal value, decimal minimum, string message)
+    {
+        if (value <= minimum)
+        {
+            throw new DomainException(message);
+        }
+    }
 
     public static void AssertArgumentRange(double value, double minimum, double maximum, string message)
     {
