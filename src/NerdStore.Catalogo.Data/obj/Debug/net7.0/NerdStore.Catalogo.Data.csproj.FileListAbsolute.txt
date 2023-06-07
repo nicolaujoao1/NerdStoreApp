@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\net7.0\NerdStore.Catalogo.Data.deps.json
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\net7.0\NerdStore.Catalogo.Data.dll
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\net7.0\NerdStore.Catalogo.Data.pdb
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\NerdStore.Catalogo.Data.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\NerdStore.Catalogo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\NerdStore.Catalogo.Data.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\NerdStore.Catalogo.Data.AssemblyInfo.cs
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\NerdStore.Catalogo.Data.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\NerdStore.Catalogo.Data.dll
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\refint\NerdStore.Catalogo.Data.dll
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\NerdStore.Catalogo.Data.pdb
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\ref\NerdStore.Catalogo.Data.dll

@@ -4,6 +4,7 @@ namespace NerdStore.Catalogo.Domain
 {
     public class Categoria : Entity
     {
+        protected Categoria() { }
         public Categoria(int codigo, string? nome)
         {
             Codigo = codigo;
@@ -14,7 +15,9 @@ namespace NerdStore.Catalogo.Domain
         public int Codigo { get;private set; }
         public string? Nome { get; private set; }
 
-       
+        // EF Relation
+        public ICollection<Produto> Produtos { get; set; }
+
         public override string ToString()
         {
             return $"{Nome} - {Codigo}";
