@@ -5,6 +5,7 @@ namespace NerdStore.Catalogo.Domain
 {
     public class Produto : Entity, IAggregateRoot
     {
+        protected Produto() { }
         public Produto(string? nome, string? descricao, bool ativo, decimal valor, Guid categoriaId, DateTime dataCadastro, string? imagem, Dimensoes dimensoes)
         {
             CategoriaId = categoriaId;
@@ -40,7 +41,7 @@ namespace NerdStore.Catalogo.Domain
         }
         public void AlterarDescricao(string descricao)
         {
-            AssertionConcern.AssertArgumentNotEmpty(descricao, "O campo Descrição não pode estar vazio");
+            Validacoes.ValidarSeVazio(descricao, "O campo Descricao do produto não pode estar vazio");
             Descricao =descricao;
         }
         public void DebitarEstoque(int quantidade)
@@ -57,11 +58,11 @@ namespace NerdStore.Catalogo.Domain
         => QuantidadeEstoque >= quantidade;
         public void Validar()
         {
-            AssertionConcern.AssertArgumentNotEmpty(Nome, "O campo Nome do produto não pode estar vazio");
-            AssertionConcern.AssertArgumentNotEmpty(Descricao, "O campo Descrição não pode estar vazio");
-            AssertionConcern.AssertArgumentNotEquals(CategoriaId, Guid.Empty, "O campo CategoriaId do produto não pode estar vazio");
-            AssertionConcern.AssertArgumentLessOrEqualThan(Valor, 0, "O valor do produto não pode ser menor ou igual a 0");
-            AssertionConcern.AssertArgumentNotEmpty(Imagem, "O campo Imagem do produto não pode estar vazio");
+            Validacoes.ValidarSeVazio(Nome, "O campo Nome do produto não pode estar vazio");
+            Validacoes.ValidarSeVazio(Descricao, "O campo Descricao do produto não pode estar vazio");
+            Validacoes.ValidarSeIgual(CategoriaId, Guid.Empty, "O campo CategoriaId do produto não pode estar vazio");
+            Validacoes.ValidarSeMenorQue(Valor, 1, "O campo Valor do produto não pode se menor igual a 0");
+            Validacoes.ValidarSeVazio(Imagem, "O campo Imagem do produto não pode estar vazio");
         }
     }
 }
