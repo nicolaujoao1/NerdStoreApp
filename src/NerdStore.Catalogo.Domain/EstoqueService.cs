@@ -30,9 +30,17 @@ namespace NerdStore.Catalogo.Domain
             return await _produtoRepository.UnitOfWork.Commit();
         }
 
-        public Task<bool> ReporEstoque(Guid produtoId, int quantidade)
+        public async Task<bool> ReporEstoque(Guid produtoId, int quantidade)
         {
-            throw new NotImplementedException();
+            var produto = await _produtoRepository.ObterPorId(produtoId);
+
+            if (produto is null) return false;
+            
+            produto.ReporEstoque(quantidade);
+
+            await _produtoRepository.Adicionar(produto);
+
+            return await _produtoRepository.UnitOfWork.Commit();
         }
         public void Dispose()
         {
