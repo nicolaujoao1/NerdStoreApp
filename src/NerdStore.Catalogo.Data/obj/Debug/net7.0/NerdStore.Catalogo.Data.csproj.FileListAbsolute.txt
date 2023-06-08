@@ -10,3 +10,10 @@ C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\
 C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\refint\NerdStore.Catalogo.Data.dll
 C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\NerdStore.Catalogo.Data.pdb
 C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\ref\NerdStore.Catalogo.Data.dll
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\net7.0\NerdStore.Catalogo.Data.runtimeconfig.json
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\net7.0\NerdStore.Catalogo.Domain.dll
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\net7.0\NerdStore.Core.dll
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\net7.0\NerdStore.Catalogo.Domain.pdb
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\net7.0\NerdStore.Core.pdb
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\NerdStore.Catalogo.Data.csproj.CopyComplete
+C:\Users\HP\source\repos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\net7.0\NerdStore.Catalogo.Data.genruntimeconfig.cache
