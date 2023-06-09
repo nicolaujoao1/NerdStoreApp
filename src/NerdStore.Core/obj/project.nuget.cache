@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "YGIix6ZjF1cJNAPpPZtD55aw64O5kjgRKOUXl9XrsBrvlRCoj3He51gZ7jc1dWlSmTWuFd7q++RRYDHAry9vkw==",
+  "dgSpecHash": "td+YEd6wj06jdpvCSh3FmUhRlWN8qwWWqM0BE93n3Nx8dcSCFEYRLv9OdGa8rVCLAEv8nzgvNemuNhoOF655hg==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\source\\repos\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "nmdZB+FPcWr5+CmWnialQ2hUyhFmrQmwhkWptcXPJYHVaSUXYozQ3KDbFgYvynRPyXsxy5Rr0Z/wfzmyHC3wVQ==",
+  "dgSpecHash": "2vc6hLdjNSSpF523zeVUSP0TrKOQFUykYsjDnydImLxgfuyBfoEPR8KuWaF1IcDzEsBuupXqyrGwFCaethVGvQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\source\\repos\\NerdStore\\tests\\using NerdStore.Catalogo.Tests\\using NerdStore.Catalogo.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.net.test.sdk\\17.3.2\\microsoft.net.test.sdk.17.3.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
