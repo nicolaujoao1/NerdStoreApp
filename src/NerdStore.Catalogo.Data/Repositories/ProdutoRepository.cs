@@ -39,7 +39,7 @@ namespace NerdStore.Catalogo.Data.Repositories
             return await _context.Categorias.AsNoTracking().ToListAsync();
         }
 
-        public async Task<Produto> ObterPorCategoria(Guid codigo)
+        public async Task<Produto> ObterPorCategoria(int codigo)
         {
             return await _context.Produtos.AsNoTracking().Include(c => c.Categoria).FirstOrDefaultAsync(p => p.CategoriaId == codigo);
         }
